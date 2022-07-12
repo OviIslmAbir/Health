@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    width: 50%;
+    margin: 50px;
+}
+.container h1{ 
+   font-size: 45px;
+   margin-left: 70px;
+}
+.container p, button{ 
+    margin-left: 70px;
+ }
+.container img{
+    width: 100%;
+}
+.container button{
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: none;
+     background-image:linear-gradient(to right, #FBA24F ,  orangered  );
+     color: white;
+     font-size: 15px;
+     cursor: pointer;
+    
+}
+.header .container span{
+    color: orange;
+}
+.about{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   background-image: url(images/shapes/7.png);
+   background-repeat: no-repeat;
+}
+.about .container{
+    width: 40%;
+}
+.about img{
+    margin-left: 50px;
+}
+.rex{
+    text-align: center;
+}
+.rex h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.card img{
+   width: 100%;
+   border-radius: 30px;
+
+
+}
+.flex{
+    display: flex;
+}
+.box{
+    border-radius: 40px;
+    margin: 50px;
+    width: 50%;
+    padding: 50px;
+    box-shadow: 5px 5px 1px gainsboro;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+}
+.blog{
+    margin: 50px 80px;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 50px;
+
+}
